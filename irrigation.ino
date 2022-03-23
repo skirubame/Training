@@ -2,8 +2,8 @@
 #include <ESP8266WiFi.h>
 String apiKey = "X5AQ3EGIKMBYW31H";     //  Enter your Write API key here
 const char* server = "api.thingspeak.com";
-const char *ssid =  "CircuitLoop";     // Enter your WiFi Name
-const char *pass =  "circuitdigest101"; // Enter your WiFi Password
+const char *ssid =  "";     // Enter your WiFi Name
+const char *pass =  ""; // Enter your WiFi Password
 #define DHTPIN D3          // GPIO Pin where the dht11 is connected
 DHT dht(DHTPIN, DHT11);
 WiFiClient client;
